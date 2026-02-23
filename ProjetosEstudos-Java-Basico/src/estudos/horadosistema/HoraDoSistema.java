@@ -6,7 +6,7 @@ package estudos.horadosistema;
 import java.util.Date;
 
 public class HoraDoSistema {
-    static void main(String[] args) {
+   public static void main(String[] args) {
 
     }
 

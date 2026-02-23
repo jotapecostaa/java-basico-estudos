@@ -8,7 +8,7 @@ package estudos.idiomas.sistema;
 import java.util.Locale;
 
 public class IdiomasDoSistema {
-    static void main(String[] args) {
+  public static void main(String[] args) {
 
 
         // Aqui puxei direto o method .getDefault() da class Locale
