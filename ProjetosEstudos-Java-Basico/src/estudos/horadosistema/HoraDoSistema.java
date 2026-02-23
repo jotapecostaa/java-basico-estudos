@@ -6,9 +6,9 @@ package estudos.horadosistema;
 import java.util.Date;
 
 public class HoraDoSistema {
-   public static void main(String[] args) {
+  public static void main(String[] args) {
 
-    }
+
 
         // relogio é um objeto criado, o =new indica isso
         Date relogio = new Date();
