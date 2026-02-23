@@ -1,4 +1,4 @@
-package resoluçaodatela;
+package estudos.resoluçaodatela;
 
 // Biblioteca importada, o * indica que importei a biblioteca toda
 import java.awt.*;
