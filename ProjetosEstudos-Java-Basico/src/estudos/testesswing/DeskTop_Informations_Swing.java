@@ -1,4 +1,4 @@
-package estudos.relogioswing;
+package estudos.testesswing;
 
 import javax.swing.*;
 import java.awt.*;
