@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c63f29c5-5ca2-4397-9108-46a9e6c0b96f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/java-basico-estudos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-basico-estudos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetosEstudos-Java-Basico/src/estudos/relogioswing/RelogioSwing.form" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetosEstudos-Java-Basico/src/estudos/relogioswing/RelogioSwing.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetosEstudos-Java-Basico/src/estudos/relogioswing/RelogioSwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetosEstudos-Java-Basico/src/estudos/relogioswing/RelogioSwing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-basico-estudos/estudos/relogioswing/RelogioSwing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-basico-estudos/estudos/relogioswing/RelogioSwing$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-basico-estudos/estudos/relogioswing/RelogioSwing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-basico-estudos/estudos/relogioswing/RelogioSwing.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +106,7 @@
       <workItem from="1771964834762" duration="120000" />
       <workItem from="1771964989413" duration="3520000" />
       <workItem from="1771970184271" duration="630000" />
-      <workItem from="1771973922973" duration="2930000" />
+      <workItem from="1771973922973" duration="4552000" />
     </task>
     <servers />
   </component>
@@ -114,7 +118,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ProjetosEstudos-Java-Basico/src/estudos/relogioswing/RelogioSwing.java</url>
-          <line>37</line>
+          <line>57</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

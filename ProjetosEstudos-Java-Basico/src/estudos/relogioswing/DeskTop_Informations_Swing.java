@@ -1,20 +1,26 @@
 package estudos.relogioswing;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 
-public class RelogioSwing {
+public class DeskTop_Informations_Swing {
     private JPanel panelOne;
     private JButton bntClick;
-    private JLabel lblOne;
-    private JLabel lblTitle;
     private JLabel lblMsg;
+    private JLabel imagePc;
+    private JLabel imgGlobo;
+    private JButton bntResolucao;
+    private JLabel lblRes;
+    private JButton mostrarButton;
+    private JLabel lblIdioma;
 
-    public RelogioSwing() {
+    public DeskTop_Informations_Swing() {
         bntClick.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -23,13 +29,27 @@ public class RelogioSwing {
                 lblMsg.setText(agora.format(formato));
             }
         });
+        bntResolucao.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Dimension resolucao = Toolkit.getDefaultToolkit().getScreenSize();
+                lblRes.setText((int) resolucao.getWidth() + " X " + (int) resolucao.getHeight());
+            }
+        });
+        mostrarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Locale idioma = Locale.getDefault();
+                lblIdioma.setText(idioma.getDisplayLanguage());
+            }
+        });
     }
 
         public static void main(String[] args) {
 
         //Objeto frame.
-            JFrame frame = new JFrame("Calendar");
-            frame.setContentPane(new RelogioSwing().panelOne);
+            JFrame frame = new JFrame("DeskTop Informations");
+            frame.setContentPane(new DeskTop_Informations_Swing().panelOne);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.pack();
             frame.setVisible(true);
