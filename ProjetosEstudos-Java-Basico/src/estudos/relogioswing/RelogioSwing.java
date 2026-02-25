@@ -39,7 +39,7 @@ public class RelogioSwing {
 /*
 Aqui criei o layout no form, dei nome a todos os que achei importante, msm n precisando
 ao invés de Date, utilizei 2 bibliotecas diferentes para deixar mais bonito, assim tive q criar 2 objetos
-Aprendi que o método main é a mesma forma sempre
+Aprendi que o método main é a mesma forma sempre.
 
 neste swing eu testei colocar imagens pra ver como fica, no começo é dificl fazer o design.
 depois que fui fazendo testes e errando bastante, estou pegando o jeito de usar a IDE para isto.
