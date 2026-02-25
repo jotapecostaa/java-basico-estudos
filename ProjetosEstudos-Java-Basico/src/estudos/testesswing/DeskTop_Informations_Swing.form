@@ -82,17 +82,6 @@
           <text value="Mostrar Data e Hora"/>
         </properties>
       </component>
-      <component id="f9bc4" class="javax.swing.JButton" binding="bntClick">
-        <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <background color="-2555648"/>
-          <font size="26" style="1"/>
-          <foreground color="-788997"/>
-          <text value="Mostrar!"/>
-        </properties>
-      </component>
       <component id="37ac3" class="javax.swing.JLabel" binding="lblRes">
         <constraints>
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -133,6 +122,17 @@
           <font name="Californian FB" size="28" style="1"/>
           <foreground color="-16262400"/>
           <text value="Mostrar Idioma"/>
+        </properties>
+      </component>
+      <component id="f9bc4" class="javax.swing.JButton" binding="bntClick">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2555648"/>
+          <font size="26" style="1"/>
+          <foreground color="-788997"/>
+          <text value="Mostrar!"/>
         </properties>
       </component>
     </children>
