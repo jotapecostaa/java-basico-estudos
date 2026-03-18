@@ -5,12 +5,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class OperadoresSwing {
-    private JTextField txtNum;
+    private JSpinner spiNum;
     private JLabel lblNumerador;
     private JLabel lblDenominador;
     private JLabel lblDiv;
     private JLabel lblResto;
     private JTextField txtDen;
+    private JTextField txtNum;
     private JLabel lblResDiv;
     private JLabel lblResResto;
     private JButton bntClick;
